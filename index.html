@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agenda de contato</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <header>
+            <img src="./midea/agrnda.png" alt="Ícone de uma agenda">
+            <h1>agenda pessoal</h1>
+            <nav>
+                <ul>
+                    <li>
+                        Contatos
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-container">
+            <form id="form-agenda">
+                <div class="form-container">
+                    <h2><i class="fa-solid fa-address-book"></i>
+                        Adicione o seu contato
+                    </h2>
+                    <div class="input-container">
+                        <input type="text" required id="nome-contato" placeholder="Nome do contato">
+                        <input type="number" required id="numero-contato" placeholder="Telefone">
+                        <input type="email" required id="email-contato" placeholder="E-mail">
+                        <button type="submit">
+                            <i class="fa-solid fa-address-book"></i>
+                            Adicionar contato
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <table cellspacing="0" class="table-container">
+                <thead>
+                    <tr>
+                        <th>
+                            <i class="fa-solid fa-user"></i>
+                            Nome do contato
+                        </th>
+                        <th>
+                            <i class="fa-solid fa-phone"></i>
+                            Número do contato
+                        </th>
+                        <th>
+                            <i class="fa-solid fa-envelope"></i>
+                            E-mail
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <h2>Site produzido por</h2>
+                <a href="https://github.com/LCCavadinha" target="_blank">victor
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://github.com/victorbrenno" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </footer>
+        <script src="./main.js"></script>
+</body>
+</html>
